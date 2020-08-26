@@ -20,7 +20,7 @@ const md = `
 <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href="app.css" />
 <link rel="apple-touch-icon" sizes="57x57" href="./assets/apple-icon-57x57.png" />
-<link rel="apple-touch-icon" sizes="60x60" href="./assets/apple-icon-60x60.png"/> 
+<link rel="apple-touch-icon" sizes="60x60" href="./assets/apple-icon-60x60.png"/>
 <link rel="apple-touch-icon" sizes="72x72" href="./assets/apple-icon-72x72.png" />
 <link rel="apple-touch-icon" sizes="76x76" href="./assets/apple-icon-76x76.png" />
 <link rel="apple-touch-icon" sizes="114x114" href="./assets/apple-icon-114x114.png" />
@@ -126,39 +126,14 @@ if (isProd && "serviceWorker" in navigator) {
 }
 
 const targets = [
-  { size: 57, name: "apple-icon-57x57.png" },
-  { size: 60, name: "apple-icon-60x60.png" },
-  { size: 72, name: "apple-icon-72x72.png" },
-  { size: 76, name: "apple-icon-76x76.png" },
-  {
-    size: 114,
-    name: "apple-icon-114x114.png",
-  },
-  {
-    size: 120,
-    name: "apple-icon-120x120.png",
-  },
-  {
-    size: 144,
-    name: "apple-icon-144x144.png",
-  },
-  {
-    size: 152,
-    name: "apple-icon-152x152.png",
-  },
-  {
-    size: 180,
-    name: "apple-icon-180x180.png",
-  },
-  { size: 36, name: "android-icon-36x36.png" },
-  { size: 48, name: "android-icon-48x48.png" },
-  { size: 72, name: "android-icon-72x72.png" },
-  { size: 96, name: "android-icon-96x96.png" },
-  { size: 144, name: "android-icon-144x144.png" },
-  { size: 192, name: "android-icon-192x192.png" },
-  { size: 32, name: "favicon-32x32.png" },
-  { size: 96, name: "favicon-96x96.png" },
-  { size: 16, name: "favicon-16x16.png" },
+  { size: 72, name: "icon-72x72.png" },
+  { size: 96, name: "icon-96x96.png" },
+  { size: 128, name: "icon-128x128.png" },
+  { size: 144, name: "icon-144x144.png" },
+  { size: 152, name: "icon-152x152.png" },
+  { size: 192, name: "icon-192x192.png" },
+  { size: 384, name: "icon-384x384.png" },
+  { size: 512, name: "icon-512x512.png" },
+
   { size: 16, name: "favicon.ico" },
-  { size: 144, name: "ms-icon-144x144.png" },
 ];
